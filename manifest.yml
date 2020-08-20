@@ -1,0 +1,10 @@
+---
+applications:
+- name: jihye-egovadmin
+  memory: 512M
+  host: jihye-egovadmin
+  domain: paas-ta.org
+  services:
+  - jihye-egov-db
+  instances: 1
+  disk_quota: 512M
