@@ -1,10 +1,10 @@
 ---
 applications:
-- name: jihye-egovadmin
+- name: jihye-myadmin
   memory: 512M
-  host: jihye-egovadmin
+  host: jihye-myadmin
   domain: paas-ta.org
   services:
-  - jihye-egov-db
+  - jihye-mysql-db
   instances: 1
   disk_quota: 512M
